@@ -1,0 +1,32 @@
+Introduction Of python:- Python was developed by Guido Van Rossum in the year 1991.
+python is high level programming language that contains features of functional programming 
+language like C and object oriented programming language like java.
+The standard Python compiler is written in C language and hence called cpython.
+Python virtual machine(PVM) is the software containing an interpreter that converts 
+the byte code into machine code. This byte code is given to Python Virtual Machine
+which converts the byte code into machine code so that the processor will execute it and 
+display the result.
+PVM is most often called python interpreter.
+Memory manager is a module (or sub progaramm) in PVM which will allocate mermory for 
+objects. Garbage collector is another module in PVM that will deallocate (or free) memory 
+for unused object.
+
+Features of Python:-
+Simple
+Easy to Learn
+Open Source
+High Level Language
+Synamically typed
+platform independent
+portable
+Procedure and Object oriented
+
+Flavors of Python:-
+CPython
+Jython
+IronPython
+PyPy
+RubyPython
+StackLessPython
+Pythonxy
+AnacondaPython
