@@ -1,0 +1,35 @@
+Data Types:- A Data type represent the type of data stored into a variable or
+memory. The Data types which are already available in python language are called 
+Built-in datatypes. The data type wich can be created by programmers are called 
+User-defined data types.
+
+Built-in Data types:
+None type:- the None Type data type represent an object that dose not contain any 
+value.
+
+Numeric type:- int, float, complex.
+
+Bool Data types:-There are only two boolean values True or False that can be represent 
+by this data type.
+
+Serquence type:- str, bytes, bytearray, list, tuple, range
+
+Sets :-1) A set is unordered collection of elements much like a set in mathematics.The
+order elements is not maintained in the sets. 
+Frozenset:-2) The frozenset datatype is same as the set datatype. the main deifference 
+is that elements in the set data type can be modified. whereas the elements of frozenset
+can not be modified.
+
+Mapping:-The dict datatype is an example for the map. The dict represent a dictionary 
+that contains pairs of elements such that the first elements reperesent the key and the 
+next one becomes its value.
+
+Literals in python:- A literal is a constant value that is stored into a variable in a 
+program. 
+a = 15 :- a is a variable and = is an operator and 15 is an literal
+types of literals:- 
+Numeric literals
+Boolean literals
+String literals
+
+ 
