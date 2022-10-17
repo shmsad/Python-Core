@@ -1,0 +1,8 @@
+Tokens in python:-Tokens are buildings blocks of a language.They are the smallest 
+induvidual unit of a program. There are five type of tokens in python 
+Type of tokens:-
+1.Keyword:-
+2.Identifiers
+3.Litetrals
+4.Punctuators
+5.Operators
