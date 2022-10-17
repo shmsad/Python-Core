@@ -1,0 +1,113 @@
+Input and Output:- The data given to the computer is called input. The result returned 
+by the computer is called output
+
+The statement in the program is excuted one by one. This Type of excution is called 
+'sequential execution'
+
+
+
+					
+					CONTROL STATEMENTS
+Control statements are statements which control or change the flow of excution of 
+statements so that they can be executed repetedly and randomly.
+The if statement executes a group of statements depending upon whether a condition is
+True or False.
+The Difference between statements and loop is that the statement is executed only once
+but a loop can be executed repeatedly. python offers for and while loops for repeated
+execution.
+
+
+
+if statement
+if....else statement
+if..elif..else statement
+while loop
+for loop
+else suite
+break statement
+continue statement
+pass statement
+assert statement
+return statement
+
+A Word on Indentation:- indentation is nothing but the spaces given in statements.
+
+						<=Suite=>
+The statements with the same indentation belong to same group called a suite.
+
+					<=Compound condition=>
+We used 'and' to combine two condition x >= 1 and x <= 10 such a condition is called 
+compound condition.
+
+The While Loop:-
+	 A statement is executed only once from top to bottem. The while loop 
+is useful to execute a group of statements several time repeatedly depending on whether 
+a condition is True or False. Syntax:
+						while condition:
+							statements
+
+The For Loop:-
+	The for loop is useful to iterate over the statements of sequence. It means, 
+The for loop can be used to execute a group of statements repeatedly depending upon 
+the number of elements in the sequence. Syntax:
+							for var in sequence:
+								statements
+
+The range() object is also known as range() function
+
+List:- A list is a sequence that contains a group of elements.
+
+The Break Statement:- The break statements can be used inside a for loop or while
+loop to come out of the loop. When 'break' is executed, the Python interpreter jumps 
+out of the loop to process the next statement in the program.
+
+x = 10
+while x <= 10:
+	print(x)
+	x -= 1
+	if x==5:
+		break
+print("out of the loop")
+
+The Continue statement:- The continue statement is used in a loop to back to the beginning
+of the loop. it means, when continue is executed, the next repetition will start. 
+when continue is executed, the subsequent statements in the loop are not executed.
+
+x = 0
+while x < 10:
+	x += 1
+	if x>5: #then continue next iteration
+		continue
+	print("x=",x)
+print("Out of the loop")
+
+The Pass Statement:- The pass statement dose not do anything. it is used with 'if'
+statement or inside a loop to represent no operation. We use pass statement when we 
+need a statement syntactically but we do not want to do any operaion.
+
+x = 0
+while x<10:
+	x += 1
+	if x>5:
+		pass
+	print("x=",x)
+print("out of loop")
+	
+
+The assert Statement:- The assert statement is useful to cheack if a particular condition
+is fulfilled or not. Syntax:
+				assert expression, massage
+
+x = int(input("Enter a number greater than zero:"))
+assert x>0, "wrong input entered"
+print("you entered: ",x )
+
+The return statement:- A function represent a group of statements to perform a task
+the purpose of a function is to perform some task and in many cases a function returns
+the result. 
+
+def add(a,b):
+	return "sum of number",a+b
+
+res = add(5,6)
+print(res)
