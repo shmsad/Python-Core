@@ -1,0 +1,73 @@
+Operator:-
+An operator is a symbol that perform an operation. An operators acts on some variables 
+called operands.
+if we write a + b here a and b are operands and + is a operator
+
+Types of Operators:
+Arithmetic operators:- +, -, *, /, %, **, //
+
+Assignment operators:- =, +=, -=, /=, %=, **=, //=
+
+Unary minus operators:- The unary minus operator is denoted by (-) minus symbol
+
+Relational operators:- >, >=, <, <=, ==, !=, 
+ 
+Logical operators:- and, or, not
+
+Boolean operators:- We know that there are two 'bool' type literal. They are True and 
+False. Boolean operators act upon 'bool' type literals and they provide 'bool' type 
+output. It means the result provide by Boolean operators will be again either True or
+Flase.
+
+Botwise operators:- Bitwise complement (~), Bitwise AND (&), Bitwise OR (|), Bitwise XOR (^),
+Bitwise left shift (<<), Bitwise right shift (>>).
+
+Memberhip operators:- in, not in
+
+Identity operators:- is, is not
+
+Operator Precedence and Associativity:- An expression or formula may contain several 
+operators. Sequence of excution of the operators is called operator precedence.
+Python follow the BODMAS - 
+
+Mathematiacl Function:-
+ceil(x) => next higher integer value -> ceil(4.5) gives 5
+floor(x) => previous integer value -> floor(4.5) gives 4
+degrees(x) => converts angle value x from radians into degrees -> degrees(3.14159) gives 179.9998479.......
+radians(x) => converts x value from degrees into radians -> radians(180) gives 3.14159.....
+sin(x) => Give sine value of x -> sin(0.5) gives 0.47942.....
+cos(x) => gives cosine value of x -> cos(0.5) gives 0.87758......
+tan(x) => returns tangent value of x -> tan(0.5) gives 0.5463.......
+exp(x) => return exponentiation of x -> exp(0.5) gives 1.648....
+fabs(x) => gives the absolute value (or +ve quantity) of x -> fabs(-4.56) gives 4.56
+factorial(x) => return factorial value x -> factorial(4) gives 24
+fmod(x,y) => return remainder of devision of x and y -> fmod(14.5, 3) gives 2.5
+fsum(values) => return accurate sum of floating point value -> fsum(1.5,2.4,-3.3) gives 0.60000....1
+modf(x) => return float and integeral part of x -> modf(2.56) gives (0.56, 2.0)
+log10(x) => return base-10 logarithm of x -> log10(5.2345) gives 0.7188.......
+log(x,[, base]) => return natural logarithm of x of specified base 
+			 log(5.5,2) gives 2.4594......
+sqrt(x) => return +ve square root of value of x -> sqrt(49) gives 7.0
+pow(x,y) => raise x value to the power of y -> pow(5,3) gives 125.0
+gcd(x,y) => gives greatest common devisor of x and y -> gcd(25,30) gives 5
+trunc(x) => the real value of x truncated to integer value -> trunc(15.5676) gives 15
+isinf(x) => check given is infinite or not -> 
+		num = float('Inf')
+		isinf(num) gives True
+
+
+Constant in Math Module:- pi, e, inf, nan
+
+
+Python program can excute by three environment:-
+1) Using IDLE window:- This will open the python shell window where we should type the program.
+when last statement is typed and Enter is pressed, the result will be displayed.
+
+2) Using Command Line Window:- Click on 'python command line' icon available task bar.
+when last statement is typed and Enter pressed, the result will be displayed.
+
+3) Executing at System Prompt:- Open a text editor like Notepad or Edit Plus and then type
+the program, save the program as "name.py" in a directory. Open command Prompt window 
+and go to that directory where the program is stored. then invoke python interpretor 
+typing:
+	python name.py
